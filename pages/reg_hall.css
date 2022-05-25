@@ -1,0 +1,146 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');*/
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+
+:root {
+  --main-color-one: #222222;
+  --main-color-two: #010079;
+  --secondary-color: #ffd700;
+  --heading-color: #222222;
+  --paragraph-color: #777777;
+  --heading-font: "Poppins", sans-serif;
+  --body-font: "Poppins", sans-serif;
+  --poppins-font: "Poppins", sans-serif;
+  --body-font-size: 15px;
+  --line-height30: 30px;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  overflow-x: hidden;
+  font-family: var(--body-font);
+}
+
+body {
+    margin: 0;
+    color: var(--paragraph-color);
+    overflow-x: hidden;
+    font-family: var(--body-font);
+    font-size: var(--body-font-size);
+	line-height: 24px;
+	font-weight: 300;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading-color);
+  /*font-family: var(--heading-font);*/
+}
+.title {
+	text-transform: capitalize;
+	font-size: 36px;
+	line-height: 45px;
+	font-weight: 600;
+	font-family: var(--poppins-font);
+
+}
+.title_color {
+	color: #222222;
+}
+
+.sub-title {
+	font-size: 14px !important;
+	line-height: 30px;
+	color: #777777;
+	margin-bottom: 0px;
+	margin-top: 0;
+	font-family: var(--poppins-font);
+
+}
+.hall_img_category {
+	position: relative;
+	/*margin-bottom: 10px;*/
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+
+.sec_h4 {
+    font-size: 1.375rem;
+    line-height: 38px;
+    font-weight: 600;
+    color: #222222;
+    margin-bottom: 0px;
+}
+
+.space{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.space1{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#home{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+#home .row{
+	color: #fff;
+	height: 50vh !important;
+	padding-top: 200px;
+	background-color: rgba(0,0,0,0.3);
+}
+#home h1{
+	font-weight: normal;
+	margin-bottom: 2.5rem;
+}
+#home p{
+	font-size: 70px;
+}
+#home .btn-warning{
+	color: #fff;
+	padding: 10px 40px 10px 40px;
+	border:2px solid gold;
+	background-color: transparent;
+	margin-top: 30px;
+}
+
+#feature{}
+#feature .media-left i{
+	color: gold;
+	font-size: 50px;
+	padding-right: 10px;
+}
+#feature .media-body p{
+	font-size: 14px;
+}
+
+#steps{}
+#steps h5{
+	color: gold;
+}
+#steps .fa-stack{
+	color: #ffd700;
+	font-size: 60px;
+}
+#steps .fa-stack-1x{
+	text-shadow: 0px 0px 10px #bbb;
+}
+#steps .col-md-4 p{
+	font-size: 14px;
+}
+
+#publicize{}
+#publicize img{
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+	margin-bottom: 10px;
+}

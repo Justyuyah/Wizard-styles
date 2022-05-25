@@ -1,0 +1,74 @@
+.space{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.space1{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+@font-face{ font-display: swap;
+    src: url(../fonts/Kaushan.ttf);
+    font-family: logo;
+}
+body{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f7f7+1,fcfcfc+49,ffffff+52,f7f7f7+100 */
+background: #f7f7f7; /* Old browsers */
+background: -moz-linear-gradient(top, #f7f7f7 1%, #fcfcfc 49%, #ffffff 52%, #f7f7f7 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #f7f7f7 1%,#fcfcfc 49%,#ffffff 52%,#f7f7f7 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #f7f7f7 1%,#fcfcfc 49%,#ffffff 52%,#f7f7f7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#f7f7f7',GradientType=0 ); /* IE6-9 */
+}
+
+@media only screen and (max-width: 900px) {
+  #lev .row{
+		padding-top: 25px;
+	}								
+}
+
+
+
+#lev1 .side_activities{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+#lev1 .col-md-9 h4{
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom:1px solid #ddd;
+}
+
+
+
+@media only screen and (max-width: 796px) {
+ 							
+}
+
+#lev1 .side_nav{
+	margin-bottom: 25px;
+	padding-bottom: 25px;
+	box-shadow: 0px 0px 2px #eee;
+	background-color: #fff;
+}
+#lev1 .side_nav #s_nav{
+	margin-top: 30px;
+}
+#lev1 .side_nav img{
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+}
+#lev1 .side_nav a{
+	color: #aaa;
+	margin: 10px;
+	padding: 10px;
+	display: block;
+	background-color: #fbfbfb;
+	box-shadow: 0px 0px 3px #eee;
+}
+#lev1 .side_nav a:hover{
+	box-shadow: 0px 0px 5px #ddd;
+}
+
+
+#lev1{}
